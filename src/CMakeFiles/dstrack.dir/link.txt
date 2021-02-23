@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../dstrack/lib/libdstrack.a CMakeFiles/dstrack.dir/DSTracker.cpp.o CMakeFiles/dstrack.dir/Biquad.cpp.o
+/usr/bin/ranlib ../dstrack/lib/libdstrack.a

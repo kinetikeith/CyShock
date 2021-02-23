@@ -1,0 +1,23 @@
+{
+  "slug": "CyShock",
+  "name": "CyShock",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "brand": "CyShock",
+  "author": "",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "Sinusoid",
+      "name": "Sinusoid",
+      "description": "",
+      "tags": []
+    }
+  ]
+}
