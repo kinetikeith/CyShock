@@ -44,5 +44,7 @@ The **Sticky** parameter can be toggled to determine whether the last sounding f
 held while there is silence.
 
 The **Gain** parameter amplifies the **Amp** Output.
+
 **Amp** is the estimated amplitude output.
+
 **V/Oct** is the estimated frequency output.
