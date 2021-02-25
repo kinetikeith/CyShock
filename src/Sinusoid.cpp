@@ -64,13 +64,13 @@ struct Sinusoid : Module {
 
 		dst->processSample(inputs[SIGNAL_INPUT].getVoltage());
 
-		float ampOut = (dst->resMag * params[GAIN_PARAM].getValue()) - params[THRESHOLD_PARAM].getValue();
+		float ampOut = (dst->getMagResult() * params[GAIN_PARAM].getValue()) - params[THRESHOLD_PARAM].getValue();
 		outputs[AMP_OUTPUT].setVoltage(clamp(ampOut, 0.f, 10.f));
 
 		if((ampOut > 0.0f) or (params[STICKY_PARAM].getValue() == 0.f))
 		{
 
-			lastVOct = std::log((sRate * dst->resArg) / dsp::FREQ_C4) / std::log(2);
+			lastVOct = std::log((sRate * dst->getArgResult()) / dsp::FREQ_C4) / std::log(2);
 
 		}
 		
